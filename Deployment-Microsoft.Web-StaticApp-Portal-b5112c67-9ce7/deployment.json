@@ -1,0 +1,61 @@
+{
+  "id": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourceGroups/CrewBoard-RG/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-b5112c67-9ce7",
+  "name": "Microsoft.Web-StaticApp-Portal-b5112c67-9ce7",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "13614173979157634453",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "CrewBoard"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skucode": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "enterpriseGradeCdnStatus": {
+        "type": "String",
+        "value": "disabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2026-05-21T02:03:47.8077368Z",
+    "duration": "PT4.4557523S",
+    "correlationId": "b82d3a55-0559-4919-8ec7-2b88f1c3cd32",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "staticSites",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourceGroups/CrewBoard-RG/providers/Microsoft.Web/staticSites/CrewBoard"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourcegroups/CrewBoard-RG/providers/Microsoft.Web/staticSites/CrewBoard"
+  }
+}

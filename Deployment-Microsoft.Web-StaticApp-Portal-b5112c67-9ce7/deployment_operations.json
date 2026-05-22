@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourceGroups/CrewBoard-RG/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-b5112c67-9ce7/operations/C4DDFE5F67578E35",
+    "operationId": "C4DDFE5F67578E35",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-05-21T02:03:44.029016Z",
+      "duration": "PT3.6693439S",
+      "trackingId": "fe55db95-17ab-4774-ad97-00cd830b18c8",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourceGroups/CrewBoard-RG/providers/Microsoft.Web/staticSites/CrewBoard",
+        "resourceType": "Microsoft.Web/staticSites",
+        "resourceName": "CrewBoard"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/6ff0803c-0f40-40ce-a9dc-190d8755335d/resourceGroups/CrewBoard-RG/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-b5112c67-9ce7/operations/08584222778621148819",
+    "operationId": "08584222778621148819",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-05-21T02:03:44.029016Z",
+      "duration": "PT3.747472S",
+      "trackingId": "2f2020f5-c354-4ddd-9e11-b156f7928f55",
+      "statusCode": "OK"
+    }
+  }
+]
